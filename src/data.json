@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Salih", "role": "Web Developer", "active": true },
+  { "id": 2, "name": "Jane", "role": "Designer", "active": false },
+  { "id": 3, "name": "Ali", "role": "Content Creator", "active": true }
+]

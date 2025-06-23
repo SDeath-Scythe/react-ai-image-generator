@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Salih",
+      "role": "Web Developer",
+      "active": true
+    },
+    {
+      "id": "2",
+      "name": "Asya",
+      "role": "Designer",
+      "active": true
+    },
+    {
+      "id": "3",
+      "name": "Ali",
+      "role": "Content Creator",
+      "active": true
+    }
+  ]
+}

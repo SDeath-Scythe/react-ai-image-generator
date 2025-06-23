@@ -1,0 +1,63 @@
+.container {
+  padding: 40px;
+  margin: 40px 20px 10px 10px;
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  box-shadow: -4px 7px 9px rgb(158, 21, 21,0.5);
+  border-radius: 3%;
+}
+
+.user-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgb(158, 21, 21);
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items:stretch;
+  text-align: center;
+}
+
+/* App.css or your relevant CSS file */
+.cards-container {
+  display: flex;
+  flex-wrap:wrap; /* Optional: allows wrapping to next line if too many cards */
+  gap: 16px;       /* Optional: adds space between cards */
+  justify-content: space-between; /* Optional: distributes space evenly */
+  padding: 16px; /* Adds equal space around the cards */
+}
+
+.user-card.active {
+  border-left: 5px solid green;
+}
+
+.user-card.inactive {
+  border-left: 5px solid red;
+}
+
+.active{
+  color: green;
+  font-weight: bold;
+}
+.inactive{
+  color: red;
+  font-weight: bold;
+}
+.status-button{
+  font-size: 1rem;
+  margin-top: 3px;
+  background-color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 2%;
+  box-shadow: 0 4px 6px rgb(158, 21, 21,0.3);
+}
+.status-button:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 6px 8px rgb(158, 21, 21,0.4);
+}
